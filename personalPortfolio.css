@@ -262,16 +262,12 @@ h2 {
 h3 {
     text-align: center;
     font-size: 1.5em;
-    
-    
 }
 
 h3 a {
     text-decoration: none;
     color: whitesmoke;
-    
     text-align: center;
-    
     text-shadow: 5x 5px 5px teal;
 }
 
@@ -280,11 +276,129 @@ h3 a:hover {
     text-align: center;
 }
 
+/***********/
+/* CONTACT */
+/***********/
 
+#codepen {
+    width: 50%;
+    height: 80px;
+    margin: auto;
+}
 
+#codepen h2 {
+    font-size: 2em;
+    text-align: center;
+}
 
+#codepen a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5x 5px 5px teal;
+}
 
+#contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+@media only screen and (max-width: 800px) {
+    #contact {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
 
+.contact {
+    width: 20%;
+    height: 60px;
+    margin: auto;
+}
 
+@media only screen and (max-width: 800px) {
+    .contact {
+        width: 50%;
+        height: 60px;
+        margin: auto;
+    }
+} 
 
+.contact h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.contact a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 5x 5px 5px teal;
+}
+
+/**********/
+/* NAVBAR */
+/**********/
+
+#footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #009999;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    #footer ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+#footer li {
+    float: left;
+    background-color: #008080;
+}
+
+#footer a {
+    display: block;
+    text-decoration: none;
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+    #footer a {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+#footer a:hover {
+    background-color: #009999;
+    color: black;
+}
+
+.copyright {
+    width: 250px;
+    text-align: center;
+    padding: 10px;
+}
